@@ -1,0 +1,31 @@
+
+@if (isHidden==false) {
+    <div class="image-modal position-fixed d-flex justify-content-center align-items-center " (click)="hideImage()">
+        <img [src]="selectedImage" alt=" " class="w-40 d-block rounded-3">
+    </div>
+}
+
+
+
+
+<section class="porfolio d-flex  align-items-center flex-column">
+
+    <p class="h1 text-uppercase fs-1 fw-bold my-4 ">portfolio component</p>
+    <app-star [black]="true"></app-star>
+    <div class="container my-3">
+        <div class="row g-5">
+           @for (item of listOfPorfolioImages; track $index) {
+            <div class="col-md-4">
+                <div class="card rounded-2 shadow-lg overflow-hidden position-relative" (click)="showImage($index)">
+                    <div class="overlay d-flex justify-content-center align-items-center">
+                        <p class="fs100 text-light">+</p>
+                    </div>
+                    <img [src]="item" alt=" " class="w-100 d-block">
+                </div>
+            </div>
+           }
+        </div>
+    </div>
+
+</section>
+

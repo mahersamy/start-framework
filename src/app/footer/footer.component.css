@@ -1,0 +1,31 @@
+.footer{
+    background-color: #2C3E50;
+}
+
+.footer-bottom{
+    background-color: #1A252F;
+}
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white; /* Change this to your desired border color */
+    border-radius: 50%;
+    color: white; /* Change this to your desired icon color */
+    transition: background-color 400ms;
+  }
+  
+  .icon:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Change this for hover effect */
+  }

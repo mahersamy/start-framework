@@ -1,0 +1,41 @@
+
+.w-40{
+    width: 40%;
+}
+p{
+color: #2C3E50;
+}
+.porfolio{
+    min-height: 100vh;
+}
+
+.fs100{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.overlay{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1abc9ce6;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 400ms;
+}
+
+.card:hover .overlay{
+    opacity: 1;
+}
+
+.image-modal{
+    /* position: absolute; */
+    background-color: rgb(13, 110, 253,0.25);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}

@@ -1,0 +1,27 @@
+p{
+    color: #2C3E50;
+}
+
+button{
+    background-color: #1ABC9C;
+    
+}
+
+
+.form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    box-shadow: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
